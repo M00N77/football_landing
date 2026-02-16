@@ -3,6 +3,7 @@ const AdsPage = ({
   selectedPhotoIndex,
   onPrevSlide,
   onNextSlide,
+
 }) => {
   return (
     <div className="w-full px-20 flex flex-col justify-center">
@@ -12,7 +13,7 @@ const AdsPage = ({
 
       <div className="w-full h-full grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-x-4">
         <div className="flex flex-col h-full">
-          <div className="flex relative">
+          <div className="flex relative w-full h-full">
             <button
               className="absolute top-1/2"
               onClick={onPrevSlide}
@@ -81,9 +82,9 @@ const AdsPage = ({
           </div>
         </div>
 
-        <div className="flex flex-col justify-between bg-gray-500 px-4 py-2  gap-y-4 2xl:py-16  h-full">
+        <div className="flex flex-col justify-between bg-gray-900 px-4 py-10  gap-y-4  h-full">
           <div className="flex flex-col gap-y-8">
-            <h3 className="font-bold text-white uppercase text-3xl md:text-2xl">
+            <h3 className="font-bold text-white uppercase text-xl md:text-4xl ">
               Новое отделение Царицыно
             </h3>
 

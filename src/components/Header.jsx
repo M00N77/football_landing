@@ -64,7 +64,7 @@ const Header = () => {
                 </li>
               </ul>
             </nav>
-            <button className=" flex justify-center items-center px-4 py-4 w-[80%] font-semibold h-[70%] text-[16px] uppercase md:h-full bg-white text-black px-4 rounded-md text-[26px] ">
+            <button className="  flex justify-center items-center px-4 py-4 w-[80%] font-semibold h-[70%] text-[16px] uppercase md:h-full bg-white text-black px-4 rounded-md text-[26px] ">
               Записаться
             </button>
           </div>
