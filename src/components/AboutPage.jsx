@@ -1,6 +1,6 @@
 const AboutPage = () => {
   return (
-    <div className="px-20 bg-[linear-gradient(180deg,#1f1f1f_20%,#132831_51%,#1f1f1f_80%)] h-auto">
+    <div className="px-5 md:px-20 bg-[linear-gradient(180deg,#1f1f1f_20%,#132831_51%,#1f1f1f_80%)] h-auto">
 
       <h2 className="uppercase text-[#424242] font-medium text-[64px] md:text-9xl mb-10 ">
         О нас

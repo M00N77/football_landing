@@ -6,7 +6,7 @@ const AdsPage = ({
 
 }) => {
   return (
-    <div className="w-full px-20 flex flex-col justify-center">
+    <div className="w-full px-5 md:px-20 flex flex-col justify-center">
       <h2 className="uppercase text-[#424242] font-medium text-[64px] md:text-9xl mb-10">
         ОБЪЯВЛЕНИЯ
       </h2>

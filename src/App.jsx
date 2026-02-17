@@ -3,6 +3,7 @@ import "./index.css";
 import MainPage from "./components/MainPage";
 import AdsPage from "./components/AdsPage";
 import AboutPage from "./components/AboutPage";
+import AdvantagesPage from "./components/AdvantagesPage";
 import { useState } from "react";
 
 function App() {
@@ -62,8 +63,11 @@ function App() {
           onNextSlide={nextSlide}
           onPrevSlide={prevSlide}
         />
-        <AboutPage/>
+        <AboutPage />
+
+        <AdvantagesPage />
       </div>
+
       <footer>footer</footer>
     </>
   );
