@@ -1,6 +1,6 @@
 const AdvantagesPage = () => {
   return (
-    <div className="w-full px-5 md:px-20">
+    <div className="w-full px-5 md:px-20 ">
       <h2 className="uppercase text-[#424242] font-medium text-[64px] md:text-9xl mb-10">
         Наши преимущества
       </h2>

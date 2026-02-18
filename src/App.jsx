@@ -33,6 +33,8 @@ function App() {
         <AboutPage />
 
         <AdvantagesPage />
+
+        <TrainersPage/>
       </div>
 
       <footer>footer</footer>
